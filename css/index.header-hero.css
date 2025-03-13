@@ -1,0 +1,19 @@
+.header__hero {
+    padding: 47% 0;
+    .header__primary {
+        color: var(--color-header);
+        font-family: var(--font-header);
+        font-size: 3.625rem;
+    }
+    .header__secondary {
+
+    }
+    .header__button {
+
+        .header__button-text {
+            color: var(--color-button-text);
+            font-family: var(--font-button);
+            font-size: 1.03rem;
+        }
+    }
+}

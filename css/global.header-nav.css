@@ -1,0 +1,13 @@
+.header__nav {
+    display: flex;
+    .header__logo-container {
+
+        .header__logo-img {
+            width: 198.31px;
+            height: 56.78px;
+        }
+    }
+    .header__menu {
+
+    }
+}
