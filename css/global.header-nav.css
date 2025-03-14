@@ -1,13 +1,16 @@
 .header__nav {
     display: flex;
+    flex-direction: row;
+    padding: 0 5px;
     .header__logo-container {
-
+        width: 198px;
+        height: auto;
         .header__logo-img {
-            width: 198.31px;
-            height: 56.78px;
+            
         }
     }
     .header__menu {
-
+        display: flex;
+        flex-direction: row;
     }
 }
