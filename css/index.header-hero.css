@@ -1,19 +1,28 @@
 .header__hero {
-    
+    padding: 150px 0;
+    display: flex;
+    align-items: center;
+    text-align: center;
+    justify-content: center;
+    flex-direction: column;
     .header__primary {
         color: var(--color-header);
         font-family: var(--font-header);
         font-size: 3.625rem;
     }
     .header__secondary {
-
+        margin: 35px 0 0 0;
+        color: var(--color-text-header);
+        font-family: var(--font-text);
+        font-size: 1.3125rem;
     }
     .header__button {
-
-        .header__button-text {
+        margin: 50px 0 0 0;
+        .button {
             color: var(--color-button-text);
             font-family: var(--font-button);
             font-size: 1.03rem;
+            font-weight: bold;
         }
     }
 }

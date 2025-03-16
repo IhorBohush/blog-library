@@ -16,9 +16,6 @@
     --color-header: #fff;
     --color-text-header: #fff;
     --color-button-text: #fff;
-    --color-headers: #23364f;
-    --color-text: #5d697e;
-    --background-img: url(../img/header.jpg);
     scroll-behavior: smooth;
 }
 img {
@@ -26,9 +23,15 @@ img {
     max-width: 100%;
 }
 .header {
+    background:
+        linear-gradient(rgba(0, 0, 0, 0.66), rgba(32, 34, 60, 0.66)), 
+        url(../img/header.jpg);
     background-size: cover;
-    background-image: url(../img/header.jpg);
+    background-position: center;
+    min-height: 44.06%;
+    min-width: 51.52%; 
 }
-.header__section {
-    background-color: rgb(35, 54, 79, 0.5);
+.container {
+    max-width: 1200px;
+    margin: auto;
 }

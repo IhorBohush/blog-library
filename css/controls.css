@@ -1,0 +1,13 @@
+.button {
+    display: inline-block;
+    text-decoration: none;
+    text-align: center;
+    padding: 20px 41px;
+    border-radius: 6px;
+    background: linear-gradient(to right, rgb(248, 118, 148), rgb(162, 58, 162));;
+
+    &:hover {
+        text-decoration: none;
+        background: linear-gradient(to left, rgb(248, 118, 148), rgb(162, 58, 162));
+    }
+}

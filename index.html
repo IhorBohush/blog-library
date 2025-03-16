@@ -13,11 +13,9 @@
     <link rel="stylesheet" href="css/index.css">
 </head>
 <body>
-    <header class="header">
-        <section class="header__section">   
-            <nav data-hx-trigger="load" data-hx-swap="outerHTML" data-hx-get="global.header-nav.partial.html"></nav>
-            <section data-hx-trigger="load" data-hx-swap="outerHTML" data-hx-get="index.header-hero.partial.html"></section>
-        </section>
+    <header class="header">   
+        <nav data-hx-trigger="load" data-hx-swap="outerHTML" data-hx-get="global.header-nav.partial.html"></nav>
+        <section data-hx-trigger="load" data-hx-swap="outerHTML" data-hx-get="index.header-hero.partial.html"></section>
     </header>
     <main>
 
@@ -25,5 +23,6 @@
     <footer>
 
     </footer>
+    <script type="module" src="js/index.js"></script>
 </body>
 </html>
