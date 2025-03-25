@@ -18,30 +18,29 @@
             flex-direction: row;
             justify-content: flex-end;
             flex: 1;
-            div.header__menu-content:hover .header__menu-item {
+            /* div.header__menu-content:hover .header__menu-item {
                 color: rgb(248, 118, 148);
-            }
-            div.header__menu-content:hover .header__menu-line {
-                width: 40%;
-            }
+            } */
+            /* div.header__menu-content:hover .header__menu-line {
+                width: 30%;
+            } */
         }
         .header__menu-item {
-            color: var(--color-button-text);
+            /* color: var(--color-button-text); */
             text-decoration: none;
             font-family: var(--font-text);
             font-size: 1.125rem;
             padding: 0 7px;
-            transition: color 0.01s linear;
+            transition: color 0.0001s ease-in-out;
         }
         .header__menu-line {
             margin: 0 0 0 8px;
             display: block;
-            position: relative;
-            width: 0;
+            /* width: ''; */
             height: 4px;
             border-radius: 2px;
             background: linear-gradient(to right, rgb(248, 118, 148), rgb(162, 58, 162));
-            transition: width 0.06s linear;
+            /* transition: width 0.02s ease-in-out; */
         }
     }
 }
