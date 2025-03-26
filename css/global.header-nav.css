@@ -31,12 +31,12 @@
             font-family: var(--font-text);
             font-size: 1.125rem;
             padding: 0 7px;
-            transition: color 0.0001s ease-in-out;
+            /* transition: color 0.0001s ease-in-out; */
         }
         .header__menu-line {
             margin: 0 0 0 8px;
             display: block;
-            /* width: ''; */
+            /* width: 0; */
             height: 4px;
             border-radius: 2px;
             background: linear-gradient(to right, rgb(248, 118, 148), rgb(162, 58, 162));
