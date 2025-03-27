@@ -1,8 +1,8 @@
-const content = document.querySelector('.header__menu-content');
-const line = document.querySelector('.header__menu-line');
-const item = document.querySelector('.header__menu-item');
-line.style.width = `0`;
-item.style.color = 'var(--color-button-text)';
+// const content = document.querySelector('.header__menu-content');
+// const line = document.querySelector('.header__menu-line');
+// const item = document.querySelector('.header__menu-item');
+// line.style.width = `0`;
+// item.style.color = 'var(--color-button-text)';
 
 // function moveColor() {
 //     item.style.color = `rgb(248, 118, 148)`;
@@ -25,5 +25,5 @@ function exitLine() {
 }
 
 // item.addEventListener('mouseover', moveColor, true);
-item.addEventListener('mouseover', moveLine, true);
-item.addEventListener('mouseout', exitLine, true);
+// item.addEventListener('mouseover', moveLine, true);
+// item.addEventListener('mouseout', exitLine, true);
